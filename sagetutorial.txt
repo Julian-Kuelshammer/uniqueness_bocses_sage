@@ -3,7 +3,7 @@ To construct the sage file from the source of the TeX file, the following steps 
 - Copy the terms you want to sum up (add + to each new block if needed).
 - Remove all terms with y, g, or gg.
 - Additionally for A and B2c: 
-    Remove all terms involving \sum (by hand). 
+    Remove all terms involving \sum. 
     We consider only the case where i is even, i.e. replace (-1)^i by + and (-1)^{i+1} by -.
 
 - Do the following search-replaces:
